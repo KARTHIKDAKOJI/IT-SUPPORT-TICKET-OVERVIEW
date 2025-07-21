@@ -82,7 +82,7 @@ Train teams in slower countries to improve speed
 
 Share knowledge better between teams
 
-# ✅ Action Plan
+# ✅ Measures  To be Taken
 Fix high-priority misuse — Use rules and automation
 
 Check missing data — Run regular audits
@@ -95,6 +95,7 @@ Track slow categories — Focus on tags with delays
 
 Plan better — Use monthly data to schedule team capacity
 
+# charts
 | Chart Name               |  Type of Chart    |                  Why It Was Used                   |
 | ------------------------ | ----------------- | -------------------------------------------------- |
 | Overview Cards           | KPI Cards         | Show total tickets, daily average, resolution time |
