@@ -123,7 +123,7 @@ Plan better — Use monthly data to schedule team capacity
 
 
 
-🛠 Tools Used
+# 🛠 Tools Used
 Power BI — To create charts and dashboards
 
 DAX — To calculate averages and custom measures
