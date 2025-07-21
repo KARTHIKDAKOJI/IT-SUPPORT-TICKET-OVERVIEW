@@ -107,23 +107,18 @@ Plan better — Use monthly data to schedule team capacity
 
 
 # DAX formulas used
-╔══════════════════════════════════════════════════════════════════════════════════╗
-║ 1. avg_resoltime      = AVERAGE(Table1[resolution_time])                         ║
-║                                                                                  ║
-║ 2. avg_tickets/day    = DIVIDE(COUNT(Table1[Ticket ID]),                         ║
-║                          DISTINCTCOUNT(Table1[Date]), 0)                         ║
-║                                                                                  ║
-║ 3. m-o-m              = CALCULATE(COUNT(Table1[Ticket ID]),                      ║
-║                          DATEADD(calender[Date].[Date], -1, MONTH))              ║
-║                                                                                  ║
-║ 4. m-o-m (%)          = DIVIDE(Table1[total tickets] - [m-o-m],                  ║
-║                          [m-o-m], 0)                                             ║
-║                                                                                  ║
-║ 5. priority_high      = CALCULATE(COUNT(Table1[Priority]),                       ║
-║                          Table1[Priority] = "high")                              ║
-║                                                                                  ║
-║ 6. total tickets      = COUNT(Table1[Ticket ID])                                 ║
-╚══════════════════════════════════════════════════════════════════════════════════╝
+1. avg_resoltime = AVERAGE(Table1[resolution_time])
+
+2. avg_tickets/day = DIVIDE(COUNT(Table1[Ticket ID]), DISTINCTCOUNT(Table1[Date]), 0)
+
+3. m-o-m = CALCULATE(COUNT(Table1[Ticket ID]), DATEADD(calender[Date].[Date], -1, MONTH))
+
+4. m-o-m (%) = DIVIDE(Table1[total tickets] - [m-o-m], [m-o-m], 0)
+
+5. priority_high = CALCULATE(COUNT(Table1[Priority]), Table1[Priority] = "high")
+
+6. total tickets = COUNT(Table1[Ticket ID])
+
 
 
 
