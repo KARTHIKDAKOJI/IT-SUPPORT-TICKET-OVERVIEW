@@ -96,14 +96,17 @@ Track slow categories — Focus on tags with delays
 Plan better — Use monthly data to schedule team capacity
 
 # charts
-| Chart Name               |  Type of Chart    |                  Why It Was Used                   |
-| ------------------------ | ----------------- | -------------------------------------------------- |
-| Overview Cards           | KPI Cards         | Show total tickets, daily average, resolution time |
-| Monthly Ticket Trend     | Line Chart        | Show ups and downs across months                   |
-| Queue vs Resolution Time | Bar Chart         | Compare which team/queue takes longer              |
-| Tag Volume & Delay       | Bar + Table       | Find common tags and how long they take to resolve |
-| Country-wise Load & Time | Map + Table       | Show how countries compare in volume and time      |
-| Ticket Type & Tag Delay  | Matrix Table      | See delay based on ticket type and tag             |
+| **Chart Name**            | **Type of Chart** | **Why It Was Used**                                                       |
+| ------------------------- | ----------------- | ------------------------------------------------------------------------- |
+| Overview Cards            | KPI Cards         | Show total tickets, daily average, resolution time                        |
+| Monthly Ticket Trend      | Line Chart        | Show ups and downs across months                                          |
+| Queue vs Resolution Time  | Bar Chart         | Compare which team/queue takes longer                                     |
+| Tag Volume & Delay        | Bar + Table       | Find common tags and how long they take to resolve                        |
+| Country-wise Load & Time  | Map + Table       | Show how countries compare in volume and time                             |
+| Ticket Type & Tag Delay   | Matrix Table      | See delay based on ticket type and tag                                    |
+| **Priority Distribution** | **Pie Chart**     | Show the proportion of tickets by **priority levels** (High, Medium, Low) |
+| **Queue Distribution**    | **Pie Chart**     | Analyze ticket share by **team/queue** for load comparison                |
+
 
 
 
